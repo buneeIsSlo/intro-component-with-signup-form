@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+    <main class="main row">
+        <!-- * Text Content -->
+        <article class="main__article">
+            <h1 class="article__head">Learn to code by watching others</h1>
+            <p class="article__text">See how experienced developers solve problems in real-time. Watching scripted
+                tutorials
+                is great, but understanding how developers think is invaluable.</p>
+        </article>
+        <!-- * Form -->
+        <aside class="main__aside">
+            <p href="#" class="aside__trial border--radius shadow">Try it free for 7 days <span class="light">then
+                    $20/mo.
+                    thereafter</span></p>
+            <form action="#" class="aside__form border--radius shadow">
+                <input type="text" class="form__first__name blue--border" placeholder="First Name"
+                    aria-label="First Name" autofocus>
+                <p class="form--error--first hide">First name cannot be empty</p>
+                <input type="text" class="form__last__name blue--border" placeholder="Last Name" aria-label="Last Name">
+                <p class="form--error--last hide">Last name cannot be empty</p>
+                <input type="email" class="form__email blue--border" placeholder="Email Address" aria-label="Email">
+                <p class="form--error--email hide">Looks like this is not an email</p>
+                <input type="password" class="form__password blue--border" placeholder="Password" aria-label="Password">
+                <p class="form--error--password hide">Password cannot be empty</p>
+                <button class="form__trial">CLAIM YOUR FREE TRIAL</button>
+                <footer class="form__footer">
+                    <p class="form__footer__text">By clicking the button, you are agreeing to our <a href="#">Terms and
+                            services</a></p>
+                </footer>
+            </form>
+        </aside>
+    </main>
+</body>
+<script src="app.js"></script>
+
+</html>
